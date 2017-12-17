@@ -146,6 +146,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="Controllers\HelloWorldController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +157,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Views\PageHeader.cshtml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -173,10 +175,13 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\layouts\sample.cshtml" />
     <Content Include="Views\Web.config" />
+    <Content Include="Views\HelloWorld\Index.cshtml" />
+    <Content Include="Views\ArticleContent.cshtml" />
+    <Content Include="Views\ThreeColumns.cshtml" />
+    <Content Include="Views\Spotlight.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

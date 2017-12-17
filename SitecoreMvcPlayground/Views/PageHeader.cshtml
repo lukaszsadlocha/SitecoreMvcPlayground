@@ -1,0 +1,9 @@
+﻿@using Sitecore.Mvc.Presentation
+@using Sitecore.Mvc
+
+@model RenderingModel
+
+<p>Page Header:  @Model.Item.Name has title of @Html.Sitecore().Field("Title")</p>
+
+@*This doesn't support page editor: You call just a field: @Model.Item.Fields["Title"]
+    Use Sitecore Helper instead*@

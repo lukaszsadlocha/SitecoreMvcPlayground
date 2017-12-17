@@ -2,4 +2,10 @@
   <PropertyGroup>
     <Site Server="sitecoretraining.local" UserName="sitecore\admin" IsRemoteSitecore="False" />
   </PropertyGroup>
+  <File Include="Views\PageHeader.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{DFF3B67A-E55E-4BCE-8017-77CD0EF6256F}</Item>
+  </File>
+  <File Include="Controllers\HelloWorldController.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{B5E3EAF7-D849-41B7-8DD0-29917C82DFBC}</Item>
+  </File>
 </Project>
