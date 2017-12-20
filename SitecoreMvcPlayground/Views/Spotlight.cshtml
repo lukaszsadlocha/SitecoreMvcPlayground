@@ -1,5 +1,6 @@
 ﻿@using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
+@using SitecoreMvcPlayground.Helpers;
 @model RenderingModel
 @{
 
@@ -14,7 +15,8 @@
     @Html.Sitecore().Field("Image", Model.Item, new { mw=300, mh=400, hspace=10, vspace=10, @class = "car class" })
     <p><strong>Make:</strong> @Html.Sitecore().Field("Make", Model.Item)</p>
     <p><strong>Model:</strong> @Html.Sitecore().Field("Model", Model.Item)</p>
-    <p>@Html.Sitecore().Field("Website", Model.Item, new { text = "Read more about this car" })</p>
+    <p>@Html.Sitecore().Field("Website", Model.Item)</p>
     <p>@Html.Sitecore().Field("__Created", Model.Item, new { format = "dd/MM/yyyy" })</p>
+    <p>@Html.Sitecore().ImageField("Image", Model.Item, 200, 300, true)</p>
 
 </div>
