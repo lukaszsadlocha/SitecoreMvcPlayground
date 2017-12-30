@@ -161,6 +161,7 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\Site.css" />
+    <Content Include="Global.asax" />
     <Content Include="Libraries\Sitecore.Kernel.dll" />
     <Content Include="Libraries\Sitecore.Mvc.dll" />
     <Content Include="Scripts\bootstrap.js" />
@@ -188,6 +189,13 @@
     <Content Include="Views\Spotlight.cshtml" />
     <Content Include="Views\FeaturedCar.cshtml" />
     <Content Include="Views\Driver\Featured.cshtml" />
+    <Content Include="Web.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
