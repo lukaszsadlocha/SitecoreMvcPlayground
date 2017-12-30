@@ -15,7 +15,7 @@ namespace SitecoreMvcPlayground.Controllers
             var repository = new DriverRepository();
             var driver = repository.GetDriver();
             var driverViewModel = repository.GetDriverViewModel(driver);
-            return View(driverViewModel);
+            return View(driver);
 
         }
     }
